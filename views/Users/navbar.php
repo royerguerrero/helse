@@ -9,19 +9,16 @@
       <div class="collapse navbar-collapse" id="navbarColor03">
         <ul class="navbar-nav ml-auto text-center">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Crear Usario<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Agendar Cita</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Ver perfil</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link btn btn-primary " href="?method=login">Log In</a>
+            <a class="nav-link btn btn-primary " href="?controller=security&method=logout">Logut</a>
           </li>
         </ul>
       </div>

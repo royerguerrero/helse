@@ -1,5 +1,8 @@
 <?php
 
+session_start();
+
+
 $controller = isset($_GET['controller']) ? $_GET['controller'] : 'index';
 $method = isset($_GET['method']) ? $_GET['method'] : 'index';
 
@@ -16,3 +19,4 @@ $controller = "{$controller}Controller";
 $controller = new $controller();
 
 call_user_func([$controller, $method]);
+

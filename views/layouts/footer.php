@@ -2,7 +2,7 @@
     <div class="bg-light">
       <div class="container d-flex justify-content-center">
         <div class="m-auto">
-          <img src="assets/img/helse.png" alt="Logo" width="300px">
+          <img src="assets/img/helse.png" alt="Logo" width="200px">
           <br>
           <p class="text-center">&copy; 2019</p>
         </div>
